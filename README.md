@@ -13,11 +13,11 @@ This study aims to assess the population attributable risk (PAR) for Alzheimer�
 
 ### Data Statement 
 Our reference datasets consisted of summary statistics from previously published studies. 23andMe GWAS summary statistics (available via collaboration with 23andMe).
-* Parkinson's disease
-    * European GWAS meta-analysis; Nalls et al 2019; [see here](https://ndkp.hugeamp.org/phenotype.html?ancestry=EU&phenotype=PDAndFirstDegree)
-    * African and African admixed GWAS meta-analysis; Rizig et al 2023; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Rizig2023_Parkinsons_AF)
-    * East Asian GWAS meta-analysis; Foo et al 2020; [see here](https://www.ebi.ac.uk/gwas/publications/32310270)
-    * Latino GWAS meta-analysis; Loesch et al 2021; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Loesch2021_Parkinsons_HS)
+* Parkinson's disease - summary statistics for the following studies are available via release 8 (DOI 10.5281/zenodo.13755496) GP2 Tier 1 access:
+    * European GWAS meta-analysis; Nalls et al 2019
+    * African and African admixed GWAS meta-analysis; Rizig et al 2023
+    * East Asian GWAS meta-analysis; Foo et al 2020
+    * Latino GWAS meta-analysis; Loesch et al 2021
 
 • Alzheimer's disease
   - AD GWAS meta-analysis; Bellenguez et al 2022; https://www.ebi.ac.uk/gwas/ (accession no. GCST90027158)
@@ -36,6 +36,7 @@ Our reference datasets consisted of summary statistics from previously published
 
 # Repository Orientation 
 - The `analyses/` directory includes all analyses discussed in the manuscript
+- The `tables/` directory includes all the supplementary tables referenced in the manuscript 
 
 ```
 analyses/
@@ -45,6 +46,9 @@ analyses/
 ├── 03_PAR_calculations_AD.ipynb
 ├── 04_data_visualization_all.R
 └── 05_data_visualization_known_variants.R
+
+tables/
+└── PAR_Supplementary_Tables.xlsx
 ```
 
 ---
