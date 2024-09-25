@@ -22,8 +22,8 @@ Our reference datasets consisted of summary statistics from previously published
 • Alzheimer's disease
   - AD GWAS meta-analysis; Bellenguez et al 2022; https://www.ebi.ac.uk/gwas/ (accession no. GCST90027158)
   * FinnGen Release 6; [see here](https://r6.finngen.fi/pheno/G6_AD_WIDE_EXMORE)
-  * African American GWAS meta-analysis; Kunkle 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33074286; please contact the authors for summary statistics)
-  * East Asian GWAS meta-analysis; Shigemizu et al 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33654092; please contact the authors for summary statistics)
+  * African American GWAS meta-analysis; Kunkle 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33074286)(please contact the authors for summary statistics)
+  * East Asian GWAS meta-analysis; Shigemizu et al 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33654092)(please contact the authors for summary statistics)
   * Latino GWAS meta-analysis; Lake et al 2023; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Lake2023_AD_Mixed)
 
 ### Helpful Links 
