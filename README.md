@@ -20,11 +20,11 @@ Our reference datasets consisted of summary statistics from previously published
     * Latino GWAS meta-analysis; Loesch et al 2021; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Loesch2021_Parkinsons_HS)
 
 • Alzheimer's disease
-  - AD GWAS meta-analysis; Bellenguez et al 2022; https://www.ebi.ac.uk/gwas/ (accession no. GCST90027158)
-  * FinnGen Release 6; [see here](https://r6.finngen.fi/pheno/G6_AD_WIDE_EXMORE)
-  * African American GWAS meta-analysis; Kunkle 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33074286)
-    * East Asian GWAS meta-analysis; Shigemizu et al 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33654092)
-    * Latino GWAS meta-analysis; Lake et al 2023; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Lake2023_AD_Mixed)
+   * AD GWAS meta-analysis; Bellenguez et al 2022; https://www.ebi.ac.uk/gwas/ (accession no. GCST90027158)
+   * European AD GWAS meta-analysis; [see here](https://dss.niagads.org/datasets/ng00075/)
+   * African American GWAS meta-analysis; Kunkle 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33074286)
+   * East Asian GWAS meta-analysis; Shigemizu et al 2021; [see here](https://www.ebi.ac.uk/gwas/publications/33654092)
+   * Latino GWAS meta-analysis; Lake et al 2023; [see here](https://ndkp.hugeamp.org/dinspector.html?dataset=Lake2023_AD_Mixed)
 
 ### Helpful Links 
 - *coming soon* pre-print 
@@ -44,7 +44,7 @@ Our reference datasets consisted of summary statistics from previously published
 ├── analyses
 │   ├── 00_clean_and_prep_PD.ipynb
 │   ├── 01_PAR_calculations_PD.ipynb
-│   ├── 02_clean_and_prep_AD.ipynb
+│   ├── 02_clean_and_prep_AD_revised.ipynb
 │   ├── 03_PAR_calculations_AD.ipynb
 │   ├── 04_PD_EUR_fine_mapping.ipynb
 │   ├── 05_PD_AFR_fine_mapping.ipynb
@@ -69,7 +69,7 @@ Our reference datasets consisted of summary statistics from previously published
 |:-----------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
 | 00_clean_and_prep_PD.ipynb    | Load list of 90 PD risk loci from Nalls publication, import ancestry-specific GWAS summary statistics, select top hits, and identify known/population-specific variants for analysis. |
 | 01_PAR_calculations_PD.ipynb  | Calculate population attributable risk (PAR) for each target and generate a table with summary statistics and PAR.                              |
-| 02_clean_and_prep_AD.ipynb    | Import AD datasets for each ancestry, clean and filter p-values < 0.05, select top hits for each ancestry, and generate dataset for calculations. |
+| 02_clean_and_prep_AD_revised.ipynb    | Import AD datasets for each ancestry, clean and filter p-values < 0.05, select top hits for each ancestry, and generate dataset for calculations. |
 | 03_PAR_calculations_AD.ipynb  | Calculate population attributable risk (PAR) for each target and generate a table with summary statistics and PAR.                              |
 | 04_PD_EUR_fine_mapping.ipynb  | Extract chromosome and base pair positions from summary statistics for selected loci in EUR population, perform fine-mapping, and save results. |
 | 05_PD_AFR_fine_mapping.ipynb  | Extract chromosome and base pair positions from summary statistics for selected loci in AFR population, perform fine-mapping, and save results. |
